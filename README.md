@@ -2,10 +2,10 @@
 
 | 方法 | 实现难度 | 调试效果 | 可用范围 | 备注 | 详细步骤 |
 | ----------------- | ---------- | ---------- | -------- | -------- | -------- |
-| chrome://inspect（Chrome浏览器）    | 简单  | 很好 | Android（4.0+）上的Chrome | 需要翻墙 | [点我](baidu.com) |
-| chrome://inspect（Android Webview）| 适中  | 很好 | Android（4.4+）上的Webview | 需要翻墙 | [点我](baidu.com) |
-| Mac Safari的开发模式                | 简单  | 好 | IOS的Safari                 | 需要MAC OS | [点我](baidu.com) |
-| weinre以及基于它的扩展工具           | 略难  | 一般 | All                        | 需要同一网段 | [点我](baidu.com) |
+| chrome://inspect（Chrome浏览器）    | 简单  | 很好 | Android（4.0+）上的Chrome | 需要翻墙 | [点我](https://github.com/wenkangzhou/RemoteDebugging/blob/master/ChromeWeb.md) |
+| chrome://inspect（Android Webview）| 适中  | 很好 | Android（4.4+）上的Webview | 需要翻墙 | [点我](https://github.com/wenkangzhou/RemoteDebugging/blob/master/ChromeWebview.md) |
+| Mac Safari的开发模式                | 简单  | 好 | IOS的Safari                 | 需要MAC OS | [点我](https://github.com/wenkangzhou/RemoteDebugging/blob/master/Safari.md) |
+| weinre以及基于它的扩展工具           | 略难  | 一般 | Webkit内核                  | 页面插入JS | [点我](https://github.com/wenkangzhou/RemoteDebugging/blob/master/weinre.md) |
 | 微信web开发者工具                   | 略难  | 好 | 腾讯系                        | 功能合集 | [点我](baidu.com) |
 | vConsole                          | 简单 | 一般 | All                         | 页面插入JS | [点我](baidu.com) |
 | Fiddle、Charles                    | 一般  | 很好 | All                       | 需要同一网段 | [点我](baidu.com) |
