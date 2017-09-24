@@ -19,14 +19,15 @@ sudo npm -g install weinre
 1. 启动 weinre 监听服务
 
 ```
-1 ipconfig getifaddr en0 // 查看本机 IP
-2 weinre --boundHost 192.168.0.107 --httpPort 8091//--boundHost 后填入你本机 IP 地址，--httpPort 后填入端口号，默认为 8080
+ipconfig getifaddr en0 // 查看本机 IP
+weinre --boundHost 192.168.0.107 --httpPort 8091//--boundHost 后填入你本机 IP 地址，--httpPort 后填入端口号，默认为 8080
 
 ```
 
 2. 进入 weinre 管理页面
 
-使用 Chrome 浏览器访问 http://192.168.0.107:8091/ ，在管理页面你可以看到使用相关的说明，有进入客户端调试界面的地址、使用的文档、DEMO 页面等等，说明中要求将一段 JS 脚本 <script src="http://192.168.0.107:8091/target/target-script-min.js#anonymous"></script>插入到需要调试的页面中，插入代码后手机访问调试页面
+使用 Chrome 浏览器访问 http://192.168.0.107:8091/ ，在管理页面你可以看到使用相关的说明，有进入客户端调试界面的地址、使用的文档、DEMO 页面等等，说明中要求将一段 JS 脚本``` <script src="http://192.168.0.107:8091/target/target-script-min.js#anonymous"></script>```
+插入到需要调试的页面中，插入代码后手机访问调试页面
 ![](http://upload-images.jianshu.io/upload_images/5018455-ccabc37446b9c0ae.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 3. 进入客户端调试界面
@@ -46,10 +47,11 @@ sudo npm -g install weinre
 
 - 多用户
 
-当多用户访问时，只需要修改JS部分<script src="http://192.168.0.107:8091/target/target-script-min.js#anonymous"></script>井号后的anonymous，这其实是weinre的id，设置不一样即可
+当多用户访问时，只需要修改JS部分```<script src="http://192.168.0.107:8091/target/target-script-min.js#anonymous"></script>```井号后的anonymous，这其实是weinre的id，设置不一样即可
 
+- 其它方案
 
-由于weinre的一些局限，出现了一些基于weinre更方便简单的工具，下面介绍其中之一：
+由于weinre的一些局限，出现了一些基于weinre更方便简单的工具，下面介绍其中之一：spy-debugger
 
 # spy-debugger
 
