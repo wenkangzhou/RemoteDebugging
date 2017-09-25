@@ -40,14 +40,14 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
 
 ![](http://upload-images.jianshu.io/upload_images/5018455-71adcb454a1034a1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-5. 电脑点击 inspect 按钮（待替换
+5. 电脑点击 inspect 按钮
 
-![](http://upload-images.jianshu.io/upload_images/5018455-1268b2232f261fb3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/5018455-f91ad76cc70dd9e0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 注意：使用 Chrome Inspect 查看页面时，Chrome 需要从 https://chrome-devtools-frontend.appspot.com 加载资源，如果你得到的调试界面是一片空白，那你可能需要科学上网。
 
-6. 进入调试页面（待替换
+6. 进入调试页面
 
-![](http://upload-images.jianshu.io/upload_images/5018455-33e8c3a9f91d5d39.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/5018455-beda7608557cb319.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 到此就OK了。
