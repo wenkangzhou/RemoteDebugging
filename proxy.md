@@ -146,6 +146,6 @@ iOS 设备用 Safari 打开 [http://www.charlesproxy.com/getssl/](http://www.ch
 
 ![](http://upload-images.jianshu.io/upload_images/5018455-a3d8537a26b3b402.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-## 3.其它
+## 3. 其它
 
 Fiddler和Charles一样拥有文件替换、模拟速度等功能，就不多介绍了，自己摸索。
