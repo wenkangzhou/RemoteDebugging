@@ -91,7 +91,7 @@ sudo npm install spy-debugger -g
 - Android设置代理步骤：设置 - WLAN - 长按选中网络 - 修改网络 - 高级 - 代理设置 - 手动
 - iOS设置代理步骤：设置 - 无线局域网 - 选中网络 - HTTP代理手动
 注意：代理的端口是启动端口9888，不是页面端口59713
-4. 安装证书。注：手机必须先设置完代理后再通过(非微信)手机浏览器访问 http://spydebugger.com/cert 安装证书（手机首次调试需要安装证书，已安装了证书的手机无需重复安装)
+4. 安装证书。注：手机必须先设置完代理后再通过(非微信)手机浏览器访问 http://spydebugger.com/cert 安装证书（手机首次调试需要安装证书，已安装了证书的手机无需重复安装)[问题：iOS 10.3.1以上版本证书安装问题](https://github.com/wuchangming/spy-debugger/issues/42)
 ![Android](http://upload-images.jianshu.io/upload_images/5018455-b81dcbe287d4c063.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![IOS](http://upload-images.jianshu.io/upload_images/5018455-71a06780f8259c25.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 5. 用手机浏览器访问你要调试的页面即可,效果如下
